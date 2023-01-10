@@ -6,7 +6,7 @@ import TopBar from '../components/TopBar'
 import NavBar from '../components/NavBar'
 import Carsoule from '../components/Carsouel'
 import Counts from '../components/Counts'
-
+import About from '../components/About'
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
      <NavBar />
      <Carsoule/>
      <Counts/>
+   <About/>
     </>
   )
 }
