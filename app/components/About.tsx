@@ -9,11 +9,10 @@ const About = () => {
     <>
     <section id="about" className={`myPrimary text-center ${styles.aboutSection}`}>
     <div className="container" data-aos="fade-up">
-      <div className="section-title pt-3">
-        <h3>Find Out More <span>About Us</span></h3>
-        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <div className="section-title pt-4">
+        <span className={`${styles.spanAbout}`}> About Us</span>
+        <p className='mt-4 fs-5'>we can offer you a review of any book you've read before to help other readers, If you are an author, you can add the books you have written </p>
       </div>
-
       <div className="row">
         <div className="col-lg-6" data-aos="fade-right" data-aos-delay="100">
           <Image src={about} className="img-fluid" alt=""/>
@@ -47,11 +46,9 @@ const About = () => {
           </span>
         </div>
       </div>
-
     </div>
   </section>
   </>
   )
 }
-
 export default About;
