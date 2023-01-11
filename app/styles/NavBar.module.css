@@ -1,7 +1,6 @@
-
+.navBar{
+    background-color: #E24338;
+    }
 .navLink:hover{
     background-color: #8E9AAF;
-}
-.navBar{
-color:#306778;
 }

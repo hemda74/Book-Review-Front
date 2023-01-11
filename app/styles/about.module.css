@@ -1,9 +1,4 @@
-.aboutSection .content h3 {
-    font-weight: 600;
-    font-size: 26px;
-  }
-  
-  .ulAbout {
+    .ulAbout {
     list-style: none;
     padding: 0;
   }
@@ -19,11 +14,8 @@
   }
   
   .spanAbout {
-    background: #fff;
     box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
-    font-size: 1.4rem;
-    padding: 1.5rem;
+    padding: 1.3rem;
     margin-right: 1rem;
-    color: #106eea;
     border-radius: 50px;
    }

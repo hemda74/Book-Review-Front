@@ -7,7 +7,7 @@ const Counts = () => {
   return (
     <>
     <section id="counts" className={`${styles.counts} container`}>
-        <span className='fs-1  '> Our Numbers</span>
+        <span className={`fs-2 myPrimary ${styles.ourNumbers}`}> Our Numbers</span>
       <div className="row">
         <div className="col-lg-3 col-md-6">
           <div className={`${styles.countBox}`}>
