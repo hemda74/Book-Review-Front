@@ -7,10 +7,10 @@ import{BsBookFill} from'react-icons/bs'
 const About = () => {
   return (
     <>
-    <section id="about" className={`myPrimary text-center`}>
+    <section  className={`myPrimary text-center`}>
     <div className="container">
       <div className="section-title pt-4">
-        <span className={`fs-2 mySecondary ${styles.spanAbout}`}> About Us</span>
+        <span className={`fs-2 mySecondary mt-5 ${styles.spanAbout}`}> About Us</span>
         <p className='mt-4 fs-5'>we can offer you a review of any book you've read before to help other readers, If you are an author, you can add the books you have written </p>
       </div>
       <div className="row">
@@ -32,7 +32,7 @@ const About = () => {
               </div>
             </li>
             <li className='d-flex'>
-            <BsBookFill size={60}/>
+            <BsBookFill size={65}/>
               <div>
                 <span className='fs-5 ms-3'>Magnam soluta odio exercitationem reprehenderi</span>
                 <span className='fs-6 ms-2'>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</span>

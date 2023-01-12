@@ -13,14 +13,14 @@ const Services = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div className={`${styles.iconBox}`}>
               <div className="icon"><BsDribbble size={50}/></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
+              <span className='fs-4'><a href="" className={`${styles.linkPage}`}>hello</a></span>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" >
             <div className={`${styles.iconBox}`}>
               <div className="icon"><i className="bx bx-file"></i></div>
               {/* link to add author page */}
@@ -29,7 +29,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div className={`${styles.iconBox}`}>
               <div className="icon"><i className="bx bx-tachometer"></i></div>
               <h4><a href="">Magni Dolores</a></h4>
@@ -37,23 +37,21 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" >
            <div className={`${styles.iconBox}`}>
               <div className="icon"><i className="bx bx-world"></i></div>
               <h4><a href="">Nemo Enim</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
-
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
            <div className={`${styles.iconBox}`}>
               <div className="icon"><i className="bx bx-slideshow"></i></div>
               <h4><a href="">Dele cardo</a></h4>
               <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
             </div>
           </div>
-
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
            <div className={`${styles.iconBox}`}>
               <div className="icon"><i className="bx bx-arch"></i></div>
               <h4><a href="">Divera don</a></h4>
@@ -66,5 +64,4 @@ const Services = () => {
    </>
   )
 }
-
-export default Services
+export default Services ;

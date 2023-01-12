@@ -7,8 +7,8 @@ const Counts = () => {
   return (
     <>
     <section id="counts" className={`${styles.counts} container`}>
-        <span className={`fs-2 myPrimary ${styles.ourNumbers}`}> Our Numbers</span>
-      <div className="row">
+        <span className={`fs-2 myPrimary mt-0 ${styles.ourNumbers}`}> Our Numbers</span>
+      <div className="row mt-5">
         <div className="col-lg-3 col-md-6">
           <div className={`${styles.countBox}`}>
             <FcVoicePresentation size={50}  />
