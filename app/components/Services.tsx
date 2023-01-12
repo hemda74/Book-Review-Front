@@ -6,56 +6,52 @@ const Services = () => {
    <>
    <section id="services" className="services text-center mt-5">
       <div className="container" >
-        <div className="section-title fs-5">
+        <div className={`section-title fs-5 ${styles.serviceHead}`}>
           <span className={`text-center fs-2 mt-2 myPrimary ${styles.serviceHead}`}>Services</span>
           <p className='fs-3 mt-4'>Check our <span>Services</span></p>
           <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
-
         <div className="row">
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div className={`${styles.iconBox}`}>
-              <div className="icon"><BsDribbble size={50}/></div>
-              <span className='fs-4'><a href="" className={`${styles.linkPage}`}>hello</a></span>
+           <div className={`${styles.serviceHead}`}>
+              <div className={`${styles.iconBoxLink}`}><span className={`${styles.iconStyle}`}><BsDribbble size={50}/></span></div>
+              <span className={`fs-4 mb-1 `}><a href="" className={` fs-3 ${styles.serviceLink}`}>hello</a></span>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" >
-            <div className={`${styles.iconBox}`}>
-              <div className="icon"><i className="bx bx-file"></i></div>
-              {/* link to add author page */}
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div className={`${styles.serviceHead}`}>
+              <div className={`${styles.iconBoxLink}`}><span className={`${styles.iconStyle}`}><BsDribbble size={50}/></span></div>
+              <span className={`fs-4 mb-1 `}><a href="" className={` fs-3 ${styles.serviceLink}`}>hello</a></span>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div className={`${styles.iconBox}`}>
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-2">
+           <div className={`${styles.serviceHead}`}>
+              <div className={`${styles.iconBoxLink}`}><span className={`${styles.iconStyle}`}><BsDribbble size={50}/></span></div>
+              <span className={`fs-4 mb-1 `}><a href="" className={` fs-3 ${styles.serviceLink}`}>hello</a></span>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" >
-           <div className={`${styles.iconBox}`}>
-              <div className="icon"><i className="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-2">
+           <div className={`${styles.serviceHead}`}>
+              <div className={`${styles.iconBoxLink}`}><span className={`${styles.iconStyle}`}><BsDribbble size={50}/></span></div>
+              <span className={`fs-4 mb-1 `}><a href="" className={` fs-3 ${styles.serviceLink}`}>hello</a></span>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-           <div className={`${styles.iconBox}`}>
-              <div className="icon"><i className="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-2">
+           <div className={`${styles.serviceHead}`}>
+              <div className={`${styles.iconBoxLink}`}><span className={`${styles.iconStyle}`}><BsDribbble size={50}/></span></div>
+              <span className={`fs-4 mb-1 `}><a href="" className={` fs-3 ${styles.serviceLink}`}>hello</a></span>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-           <div className={`${styles.iconBox}`}>
-              <div className="icon"><i className="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-2">
+           <div className={`${styles.serviceHead}`}>
+              <div className={`${styles.iconBoxLink}`}><span className={`${styles.iconStyle}`}><BsDribbble size={50}/></span></div>
+              <span className={`fs-4 mb-1 `}><a href="" className={` fs-3 ${styles.serviceLink}`}>hello</a></span>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
         </div>
