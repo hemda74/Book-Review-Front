@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Content, Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import TopBar from '../components/TopBar'
 import NavBar from '../components/NavBar'
@@ -8,6 +8,7 @@ import Carsoule from '../components/Carsouel'
 import Counts from '../components/Counts'
 import About from '../components/About'
 import Services from '../components/Services'
+import Contact from '../components/Contact'
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
      <Counts/>
    <About/>
    <Services/>
+   <Contact />
     </>
   )
 }

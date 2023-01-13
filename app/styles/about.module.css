@@ -16,6 +16,6 @@
   .spanAbout {
     box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
     padding: 1.3rem;
-    margin-right: 1rem;
+    margin-top: 3rem !important;
     border-radius: 50px;
    }

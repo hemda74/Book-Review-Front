@@ -7,10 +7,10 @@ import{BsBookFill} from'react-icons/bs'
 const About = () => {
   return (
     <>
-    <section  className={`myPrimary text-center`}>
+    <section  className={`myPrimary text-center mt-3`}>
     <div className="container">
-      <div className="section-title pt-4">
-        <span className={`fs-2 mySecondary mt-5 ${styles.spanAbout}`}> About Us</span>
+      <div className="section-title pt-3">
+        <h2 className={` mt-5   ${styles.spanAbout}`}> About Us</h2>
         <p className='mt-4 fs-5'>we can offer you a review of any book you've read before to help other readers, If you are an author, you can add the books you have written </p>
       </div>
       <div className="row">
