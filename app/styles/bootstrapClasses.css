@@ -1,67 +1,67 @@
 /* * Customizable bootstrap classes*/
 
 .myPrimary {
-    background-color: #306778 !important;
+    background-color: #d66553 !important;
     color: #ffffff !important;
 }
 
 
     .myPrimary:hover {
-        background-color: #244e5b !important;
+        background-color: #974236 !important;
         color: #ffffff !important;
     }
 
     .myPrimary:focus {
-        border: 1px solid #3a7d92 !important;
+        border: 1px solid #a54b3d !important;
     }
 
 .myPrimary-outline {
     background-color: #ffffff !important;
-    color: #306778 !important;
-    border: 1px solid #306778 !important;
+    color: #ad5041 !important;
+    border: 1px solid #c25545 !important;
 }
 
     .myPrimary-outline:hover {
-        background-color: #306778 !important;
+        background-color: #e1705f !important;
         color: #ffffff !important;
     }
 
     .myPrimary-outline:focus {
-        border: 1px solid #3a7d92 !important;
+        border: 1px solid #a95345 !important;
     }
 
 .myPrimary-outline-active {
-    background-color: #306778 !important;
+    background-color: #ae4c3d !important;
     color: #ffffff !important;
 }
 
 .mySecondary {
-    background-color: #8E9AAF;
+    background-color: #b0b0f4;
     color: #ffffff;
 }
 
     .mySecondary:hover {
-        background-color: #7987a0;
+        background-color: #7a7ac3;
         color: #ffffff;
     }
 
     .mySecondary:focus {
-        border: 1px solid #a5afc0;
+        border: 1px solid #7b7bc4;
     }
 
 .mySecondary-outline {
     background-color: #ffffff;
-    color: #8E9AAF;
-    border: 1px solid #8E9AAF;
+    color:#8181d8;
+    border: 1px solid #eae3ea;
 }
 
     .mySecondary-outline:hover {
-        background-color: #8E9AAF;
+        background-color: #7a7ad2;
         color: #ffffff;
     }
 
     .mySecondary-outline:focus {
-        border: 1px solid #a5afc0;
+        border: 1px solid #7a7adb;
     }
 
 .mySuccess {
@@ -212,7 +212,7 @@
 }
 
 .mySecondary-Text {
-    color: #8E9AAF;
+    color: #eae3ea;
 }
 
 .mySuccess-Text {
@@ -250,7 +250,7 @@
 }
 
 .mySecondary-bg {
-    background-color: #8E9AAF;
+    background-color: #eae3ea;
 }
 
 .mySuccess-bg {
