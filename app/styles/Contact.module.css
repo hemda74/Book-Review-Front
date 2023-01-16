@@ -13,35 +13,17 @@
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
     padding: 20px 0 30px 0;
   }
-  
-  .contact .info-box i {
-    font-size: 32px;
-    color: #106eea;
-    border-radius: 50%;
-    padding: 8px;
-    border: 2px dotted #b3d1fa;
+  .iconStyle {
+    color: #3b8af2 !important;
+    font-size: 1rem !important;
+    transition: ease-in-out 0.3s !important;
   }
-  
-  .contact .info-box h3 {
-    font-size: 20px;
-    color: #777777;
-    font-weight: 700;
-    margin: 10px 0;
-  }
-  
-  .contact .info-box p {
-    padding: 0;
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  
-  .contact .php-email-form {
+  .emailForm {
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
     padding: 30px;
   }
   
-  .contact .php-email-form .error-message {
+  .errorMessaga {
     display: none;
     color: #fff;
     background: #ed3c0d;
@@ -50,11 +32,11 @@
     font-weight: 600;
   }
   
-  .contact .php-email-form .error-message br+br {
+  .errorMessaga br+br {
     margin-top: 25px;
   }
   
-  .contact .php-email-form .sent-message {
+  .sentMessaga {
     display: none;
     color: #fff;
     background: #18d26e;
@@ -63,14 +45,14 @@
     font-weight: 600;
   }
   
-  .contact .php-email-form .loading {
+  .loadingMessaga {
     display: none;
     background: #fff;
     text-align: center;
     padding: 15px;
   }
   
-  .contact .php-email-form .loading:before {
+  .loadingMessaga:before {
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -83,7 +65,7 @@
     animation: animate-loading 1s linear infinite;
   }
   
-  .contact .php-email-form .form-group {
+  .formGrop {
     margin-bottom: 20px;
   }
   
