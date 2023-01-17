@@ -5,7 +5,7 @@ import logo from '../public/logo.svg'
 const NavBar = () => {
   return (
     <>
-    <nav className={`navbar navbar-expand-lg fixed-top navbar-scroll d-flex align-items-center ms-0 mt-4 myPrimary ${styles.navBar}`}>
+    <nav className={`navbar navbar-expand-lg fixed-top navbar-scroll d-flex align-items-center ms-0 mt-4 myInfo ${styles.navBar}`}>
   <div className={`container d-flex justify-content-between align-items-center `}>
     <a className="navbar-brand fs-1 " href="#"><Image
                   alt="trash icon"

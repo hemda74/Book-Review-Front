@@ -87,6 +87,7 @@ body {
 
 a {
   color: #ffff !important;
+  text-decoration: none !important;
 }
 
 * {

@@ -4,7 +4,7 @@ import {BsFacebook,BsTwitter,BsLinkedin,BsGithub,BsEnvelopeFill,BsFillTelephoneF
 const TopBar = () => {
   return (
       //  topbar implementation
-      <div id="topbar" className={`d-flex align-items-center mySecondary fixed-top ${styles.topBarColors}`}>
+      <div id="topbar" className={`d-flex align-items-center myPrimary fixed-top ${styles.topBarColors}`}>
        <div className="container d-flex justify-content-center justify-content-md-between ">
            <div className="contact-info d-flex align-items-center">
            {/* // phone and mail */}

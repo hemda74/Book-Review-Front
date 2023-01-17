@@ -5,8 +5,8 @@ import {BsEnvelopeFill,BsFillTelephoneFill} from 'react-icons/bs'
 const Contact = () => {
   return (
     <>
-    <section id="contact" className={`mt-5 ${styles.contactMain}`}>
-    <div className="container text-center" data-aos="fade-up">
+   <section className={` text-center mt-5`}>
+    <div className={`container ${styles.aboutCont}`} >
     <div className="section-title pt-5">
         <span className={`fs-2 myPrimary mt-5 ${styles.contactHead}`}> Contact Us</span>
         <p className='mt-5 fs-5'>we can offer you a review of any book you've read before to help other readers </p>
@@ -59,7 +59,7 @@ const Contact = () => {
               <div className={`${styles.errorMessaga}`}></div>
               <div className={`${styles.sentMessaga}`}>Your message has been sent. Thank you!</div>
             </div>
-            <div className="text-center"><button type="submit" className='myPrimary p-2'>Send Message</button></div>
+            <div className="text-center"><button type="submit" className='myPrimary p-2 rounded'>Send Message</button></div>
           </form>
         </div>
       </div>
