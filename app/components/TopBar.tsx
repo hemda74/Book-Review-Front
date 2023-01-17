@@ -5,11 +5,11 @@ const TopBar = () => {
   return (
       //  topbar implementation
       <div id="topbar" className={`d-flex align-items-center myPrimary fixed-top ${styles.topBarColors}`}>
-       <div className="container d-flex justify-content-center justify-content-md-between ">
-           <div className="contact-info d-flex align-items-center">
+      <div className="container d-flex justify-content-center justify-content-md-between ">
+          <div className="contact-info d-flex align-items-center">
            {/* // phone and mail */}
-          <div className="d-flex align-items-center me-2"><BsEnvelopeFill/><a href="mailto:ahmedashrafhemdan74@gmail.com" className={`ms-2 ${styles.aTag}`}>ahmedashrafhemdan74@gmail.com</a></div>
-             < div className="d-flex align-items-center"><BsFillTelephoneFill/><span className=''>+201121900466</span></div>
+          <div className="d-flex align-items-center me-2"><BsEnvelopeFill/><a href="mailto:ahmedashrafhemdan74@gmail.com" ><small className={` ${styles.aTag}`}>ahmedashrafhemdan74@gmail.com</small></a></div>
+             < div className="d-flex align-items-center"><BsFillTelephoneFill/><small className={` ${styles.aTag}`}>+201121900466</small></div>
            </div>
             {/* social media links */}
            <div className={`social-links d-none d-md-flex align-items-center ${styles.topBarColors}`}>

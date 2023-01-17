@@ -4,16 +4,17 @@ import Image from 'next/image';
 import logo from '../public/logo.svg'
 const NavBar = () => {
   return (
+    //design nav
     <>
-    <nav className={`navbar navbar-expand-lg fixed-top navbar-scroll d-flex align-items-center ms-0 mt-4 myInfo ${styles.navBar}`}>
-  <div className={`container d-flex justify-content-between align-items-center `}>
+    <nav className={`navbar  navbar-expand-lg sticky-top  myInfo ${styles.navBar}`}>
+  <div className={`container d-flex justify-content-center align-items-center mt-4`}>
     <a className="navbar-brand fs-1 " href="#"><Image
                   alt="trash icon"
                   src={logo}
                   width={220}
                   height={50}
                 /></a>
-    <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarColor01">

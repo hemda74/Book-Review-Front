@@ -11,7 +11,7 @@ const About = () => {
     <div className={`container ${styles.aboutCont}`} >
       <div className="section-title pt-3">
         <span className={` mt-5 fs-2 myPrimary ${styles.spanAbout}`}> About Us</span>
-        <span className='mt-5 fs-5 d-block'>we can offer you a review of any book you've read before to help other readers. </span>
+        <span className='mt-5 fs-5 d-block'>we can offer you a review of any book you've read before to help other readers.</span>
       </div>
       <div className="row mt-3">
         <div className="col-lg-6 "  >

@@ -34,9 +34,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="row" >
-        <div className="col-lg-6 ">
-          <iframe className="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13816.478633038354!2d31.271807858276365!3d30.033424799549813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840ac90c2ed63%3A0x2fdb96e4e9f72e6f!2sSalah%20Al-Din%20Al-Ayoubi%20Castle!5e0!3m2!1sen!2seg!4v1659307228307!5m2!1sen!2seg" width="600" height="450"   loading="lazy" ></iframe>
+      <div className="row">
+        <div className="col-lg-6">
+          <iframe className="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13816.478633038354!2d31.271807858276365!3d30.033424799549813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840ac90c2ed63%3A0x2fdb96e4e9f72e6f!2sSalah%20Al-Din%20Al-Ayoubi%20Castle!5e0!3m2!1sen!2seg!4v1659307228307!5m2!1sen!2seg"    loading="lazy" ></iframe>
         </div>
         <div className="col-lg-6">
           <form action="forms/contact.php" method="post" role="form" className={`${styles.emailForm}`}>
