@@ -10,8 +10,7 @@ const Services = () => {
       <div className="container d-felx align-items-center " >
         <div className={`section-title fs-5 ${styles.serviceHead}`}>
           <span className={`text-center fs-2 mt-2 myPrimary ${styles.serviceHead}`}>Our Services</span>
-          <p className='fs-3 mt-4'>Check our <span>Services</span></p>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p className='mt-5'>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
         <div className="row">
           <div className="col-lg-6 col-md-6 d-flex align-items-center">
