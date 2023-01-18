@@ -1,19 +1,19 @@
-import React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 import Footer from '../components/Footer';
 import TopBar from '../components/TopBar';
 import NavBar from '../components/NavBar';
 // decaling an alias for layout childern
+// decaling an alias for layout childern
 type LayoutProps = {
   childern: React.ReactNode;
 };
-
 // vieweres Layout.
-const ViewerLayout = ({ childern }: LayoutProps) => {
+const ViewerLayout = ({ childern }:LayoutProps) => {
   return (
     <>
-        <TopBar />
+            <TopBar />
             <NavBar />
-            <main>{childern}</main>
+            <main>{childern}</main>  
             <Footer />
      
     </>

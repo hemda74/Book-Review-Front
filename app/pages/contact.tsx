@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import Contact from '../components/Contact'
+import ViewerLayout from '../layout/ViewerLayout';
 const contact = () => {
   return (
    <>
@@ -7,5 +8,8 @@ const contact = () => {
    </>
   )
 }
-
+// adding Layout
+contact.getLayout = function getLayout(index: ReactElement) {
+  return <ViewerLayout childern={index}></ViewerLayout>;
+};
 export default contact
