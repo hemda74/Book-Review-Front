@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-// import DepartmentsLandingImage from '../public/images/departments-landing-image.svg';
+import DepartmentsLandingImage from '../public/images/categories-landing.svg';
 import NewBtn from './NewBtn';
 import styles from '../styles/CategoriesLanding.module.css';
 
@@ -13,14 +13,14 @@ const CategoriesLanding = (props: Props) => {
       <div className="card border-light mb-3">
         <div className={`card-body pe-5 ps-5 pb-4 ${styles.cardBodyContainer}`}>
           <div className="d-flex flex-column align-items-center">
-            {/* <Image
+             <Image
               src={DepartmentsLandingImage}
               alt="departments-landing-image"
               width={365}
               height={365}
-            /> */}
+            /> 
             <span className={`mt-4 ${styles.landingPageHeader}`} data-trans="">
-              Create A Department
+              Create A Category
             </span>
             <div className={styles.newOpHourBtn}>
               <NewBtn
