@@ -2,13 +2,13 @@
 .cardContainer {
     min-height: 13.625rem;
     max-height: 13.625rem;
-    border: 2px solid #306778;
+    border: 2px solid #D66553;
     border-radius: 7.5px !important;
     -webkit-border-radius: 7.5px !important;
     -moz-border-radius: 7.5px !important;
     -ms-border-radius: 7.5px !important;
     -o-border-radius: 7.5px !important;
-    border-top: 15px solid #306778;
+    border-top: 15px solid #D66553;
 }
 
 
