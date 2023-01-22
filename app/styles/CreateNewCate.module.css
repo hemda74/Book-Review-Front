@@ -4,8 +4,8 @@
 .cardBodyContainer {
     /* margin-left: 1rem;
     margin-right: 1rem; */
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+     margin-top: 2rem;
+    /*margin-bottom: 2rem; */
 }
 
 /* design form container div */
@@ -19,7 +19,6 @@
     height:2.5rem;
     padding-top: 0;
     /* margin: 8px 0; */
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -29,7 +28,7 @@
 }
 .inputWidth{
     width: 20rem;
-    height: 2.9rem;
+    height: 5rem;
 
 }
 
