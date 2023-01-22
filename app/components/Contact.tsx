@@ -51,8 +51,8 @@ const Contact = () => {
             <div className={`form-group ${styles.formGrop}`}>
               <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
             </div>
-            <div className={`form-group text-area ${styles.formGrop}`}>
-              <textarea className="form-control" name="message" rows={5} placeholder="Message" required></textarea>
+            <div className={`form-group text-area ${styles.formGrop} ${styles.formGropTextArea}`}>
+              <textarea className={`form-control ${styles.formGropTextArea}`} name="message" rows={7} placeholder="Message" required></textarea>
             </div>
             <div className="my-3">
               <div className={`${styles.loadingMessaga}`}>Loading</div>

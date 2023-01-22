@@ -17,7 +17,7 @@ const CreateNewCategoryComp = function (props: Props) {
       };
     return (
         <>
-            <div className="d-flex align-items-center justify-content-center mb-5">
+            <div className="flex-column min-vh-100 align-items-center justify-content-center mb-5 d-flex  ">
                 <div className="card border-light ">
                     <div className={`card-body  ${styles.cardBodyContainer}`}>
                         {/* design heading section */}

@@ -6,7 +6,7 @@ import {BsFacebook,BsTwitter,BsLinkedin,BsGithub} from 'react-icons/bs';
 // footer Component design
 const Footer = () => {
   return (
-    <footer className='m-0'>
+    <footer className='mt-auto'>
         <div className="container-fluied myInfo mt-3 p-5">
             <div className="row">
                 <div className="col-md-6 col-lg-4 ">

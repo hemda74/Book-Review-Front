@@ -68,6 +68,9 @@
   .formGrop {
     margin-bottom: 20px;
   }
+  .formGropTextArea{
+    resize: none;
+  }
   
   .contact .php-email-form input,
   .contact .php-email-form textarea {
