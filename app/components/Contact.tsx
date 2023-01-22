@@ -65,14 +65,7 @@ const Contact = () => {
       </div>
     </div>
   </section>
-  <style jsx>{`
-        .container {
-          margin: 50px;
-        }
-        p {
-          color: blue;
-        }
-      `}</style>
+ 
   </>
   )
 }
