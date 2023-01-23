@@ -2,7 +2,13 @@ import React,{useState} from 'react'
 import styles from'../styles/CreateNewCate.module.css'
 import { useRouter } from 'next/router';
 
-type Props={[key:string]:any};
+type Props = {
+    [key: string]: any;
+  };
+  
+  type Categories = {
+    [key: string]: any;
+  };
 
 const CreateNewCategoryComp = function (props: Props) {
     const [isPassError, setIsPassError] = useState(false);

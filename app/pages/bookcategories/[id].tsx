@@ -4,6 +4,7 @@ import BookCard from '../../components/BookCard';
 import BooksLanding from '../../components/BooksLanding';
 import CategoriesLanding from '../../components/CategoriesLanding';
 import CategoriesList from '../../components/CategoriesList';
+import CategoryBooks from '../../components/CategoryBook';
 import ViewerLayout from '../../layout/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
 type Props = {};
@@ -52,7 +53,7 @@ const id:NextPageWithLayout = (props:Props) => {  return (
         <BooksLanding />
       )}
       {Object.entries(dummyData.categories).length !== 0 && (
-        <CategoriesList departments={dummyData.categories} />
+        <CategoryBooks />
       )}
     </>
 )

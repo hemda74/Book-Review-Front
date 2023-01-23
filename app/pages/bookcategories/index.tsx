@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React, { ReactElement } from 'react'
 import CategoriesLanding from '../../components/CategoriesLanding';
 import CategoriesList from '../../components/CategoriesList';
+import SitesLandingWithData from '../../components/CategoryBook';
 import ViewerLayout from '../../layout/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
 type Props = {};
@@ -52,7 +53,7 @@ export const categories:NextPageWithLayout = (props:Props) => {  return (
         <CategoriesLanding />
       )}
       {Object.entries(dummyData.categories).length !== 0 && (
-        <CategoriesList departments={dummyData.categories} />
+        <CategoriesList categories={dummyData.categories}  />
       )}
     </>
 )

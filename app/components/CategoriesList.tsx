@@ -21,10 +21,9 @@ const DepartmentsList = (props: Props) => {
       </Head>
       <div className="d-flex flex-column w-100 h-100 mt-4">
         <div className="card border-light mb-3">
-          <div className={`card-body pe-5 ps-5 pb-4`}>
-            
+          <div className={`card-body pe-5 ps-5 pb-4`}>  
             <div className={`row ${styles.cardsContainer}`}>
-              {props.departments.map(
+              {props.categories.map(
                 (categories: Categories, index: number) => (
                   <div key={index} className={`col-sm-12 col-lg-4 col-md-6 ${styles.cardMargin}`}>
                     <CategoryCard
