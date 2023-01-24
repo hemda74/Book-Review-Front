@@ -1,18 +1,21 @@
 /* Department Card component style sheet. */
 .cardContainer {
-    min-height: 13.625rem;
-    max-height: 13.625rem;
-    border: 2px solid #D66553;
+    min-height: 15rem;
+    max-height: 15rem;
+    border: 0.1rem solid ;
     border-radius: 7.5px !important;
     -webkit-border-radius: 7.5px !important;
     -moz-border-radius: 7.5px !important;
     -ms-border-radius: 7.5px !important;
     -o-border-radius: 7.5px !important;
-    border-top: 15px solid #D66553;
+    box-shadow: 0.1rem 0.5rem #8787b2;
+    box-shadow: 0px 30px 40px -20px #8787b2;
 }
 
 
-
+.textStyle{
+    color: #ec7462;
+}
 .descrpitionText {
     color: #767676;
     display: -webkit-box;
@@ -22,9 +25,11 @@
 }
 
 .cardContainer:hover {
-    background-color: #6E95A0;
+    background-color:#ea9b8f;
     color: #ffffff !important;
     border: unset !important;
+    transform: scale(1.06);
+    transition: 0.2s;
 }
 
 .cardContainer:hover .descrpitionText {

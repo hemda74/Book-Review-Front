@@ -44,7 +44,9 @@ const dummyData = {
 };
 
 //  categories page.
-export const categories:NextPageWithLayout = (props:Props) => {  return (
+export const categories:NextPageWithLayout = (props:Props) => { 
+  
+  return (
   <>
     <Head>
        <title>B R App | bookcategories </title> 

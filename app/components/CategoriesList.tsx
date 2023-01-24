@@ -8,18 +8,17 @@ import categories from '../pages/bookcategories';
 type Props = {
   [key: string]: any;
 };
-
 type Categories = {
   [key: string]: any;
 };
-// Departments List used as Landing page for demaprtment page if there are Departments.
+// Categories List used as Landing page for Categories page if there are Departments.
 const DepartmentsList = (props: Props) => {
   return (
     <>
       <Head>
         <title>Book Review | Categories</title>
       </Head>
-      <div className="d-flex flex-column w-100 h-100 mt-4">
+      <div className="d-flex flex-column w-100 vh-100 mt-4">
         <div className="card border-light mb-3">
           <div className={`card-body pe-5 ps-5 pb-4`}>  
             <div className={`row ${styles.cardsContainer}`}>
