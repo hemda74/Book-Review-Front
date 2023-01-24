@@ -1,0 +1,12 @@
+/*BooksList Component style sheeet used in categores page. */
+.selectNewBtnsContainer {
+    margin-top: 4.5rem;
+}
+
+.cardsContainer {
+    margin-top: 2rem;
+}
+
+.cardMargin {
+    margin-bottom: 2rem;
+}

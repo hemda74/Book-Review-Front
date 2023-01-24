@@ -20,11 +20,11 @@ const BooksLanding = (props: Props) => {
               height={365}
             /> 
             <span className={`mt-4 ${styles.landingPageHeader}`} data-trans="">
-              Create A Category
+              sorry there is No Books Yet Click New To Add Book  
             </span>
             <div className={styles.newOpHourBtn}>
               <NewBtn
-                href="/tenant-admin/organization_details/departments/create_new"
+                href="/books/create_new"
                 imageWidth={22}
                 imageHeigth={22}
               />

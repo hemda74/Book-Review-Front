@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React,{ReactElement} from 'react'
 import BookCard from '../../components/BookCard';
 import BooksLanding from '../../components/BooksLanding';
+import BooksList from '../../components/BooksList';
 import CategoriesLanding from '../../components/CategoriesLanding';
 import CategoriesList from '../../components/CategoriesList';
 import CategoryBooks from '../../components/CategoryBook';
@@ -11,8 +12,12 @@ type Props = {};
 // dymmy data for ui till handle working with api
 
 const dummyData = {
-  categories: [
+  books: [
     {
+      book_id: 0,
+      book_name:"book 1",
+      author_name:"author 1",
+      book_rate:4,
       category_id: 0,
       category_name: 'Category 1 ',
      
@@ -20,28 +25,47 @@ const dummyData = {
     {
       category_id: 1,
       category_name: 'Category 2 ',
-     
+      book_id: 1,
+      book_name:"book 2",
+      author_name:"author 2",
+      book_rate:5,
+      
     },
     {
+      book_id: 2,
       category_id: 2,
+      book_name:"book 3",
+      author_name:"author 3",
+      book_rate: 4 ,
       category_name: 'Category 3 ',
-     
     },
     {
+      book_id: 3,
       category_id: 3,
+      book_name:"book 4",
+      author_name:"author 4",
+      book_rate: 3.5 ,
       category_name: 'Category 4 ',
      
     },
     {
+      book_id: 4,
       category_id: 4,
+      book_name:"book 4",
+      author_name:"author 4",
+      book_rate: 4.34 ,
       category_name: 'Category 5 ',
      
     },
-    // {
-    //   category_id: 5,
-    //   category_name: 'Category 6 ',
+     {
+      book_id: 0,
+      category_id: 2,
+      book_name:"book 3",
+      author_name:"author 3",
+      book_rate: 4 ,
+      category_name: 'Category 6 ',
      
-    // },
+     },
   ],
 };
 const id:NextPageWithLayout = (props:Props) => {  return (
@@ -49,11 +73,11 @@ const id:NextPageWithLayout = (props:Props) => {  return (
     <Head>
        <title>B R App | bookcategories </title> 
       </Head>
-     {Object.entries(dummyData.categories).length === 0 && (
+     {Object.entries(dummyData.books).length === 0 && (
         <BooksLanding />
       )}
-      {Object.entries(dummyData.categories).length !== 0 && (
-        <CategoryBooks />
+      {Object.entries(dummyData.books).length !== 0 && (
+        <BooksList books={dummyData.books}  />
       )}
     </>
 )
