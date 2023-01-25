@@ -1,47 +1,44 @@
-import React from 'react'
-import about from '../public/about.jpg'
-import Image from 'next/image'
-import styles  from '../styles/about.module.css'
-import {BiStore} from 'react-icons/bi'
-import{BsBookFill} from'react-icons/bs'
-const Book = () => {
+import React from 'react';
+import Image from 'next/image';
+import bookimage from '../public/bookimage.png'
+import styles  from '../styles/Book.module.css';
+import { BsStarFill } from 'react-icons/bs';
+type Props = {
+  book:{
+  book_id: number;
+  book_name: string;
+  author_name: string;
+  book_rate: number;
+  category_name:string;
+  category_id:number;}
+};
+const Book = (props:Props) => {
   return (
     <>
     <section className={` text-center mt-5`}>
-    <div className={`container ${styles.aboutCont}`} >
-      <div className="section-title pt-3">
-        <span className={` mt-5 fs-2 myPrimary ${styles.spanAbout}`}> About Us</span>
-        <span className='mt-5 fs-5 d-block'>we can offer you a review of any book you've read before to help other readers.</span>
-      </div>
-      <div className="row mt-3">
-        <div className="col-lg-6 "  >
-          <BsBookFill className="img-fluid ms-2" />
+        <div className={`container ${styles.aboutCont}`} >
+          <div className="row mt-5">
+          <div className="col-lg-6 ">
+              <Image src={bookimage} className="img-fluid ms-2" alt=""/>
+            </div>
+            <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+              <h1 className={`${styles.textStyle2}   `}>{props.book.book_name}</h1>
+              <span className={`fs-4 mt-3 fw-bold ${styles.textStyle}`}>
+              Written by :{props.book.author_name}
+              </span>
+              <span className={`fs-4 mt-3 fw-bold ${styles.textStyle} `}>
+                Category : {props.book.category_name}</span>
+              <span className={`fs-4 mt-3 fw-bold ${styles.textStyle} `}>
+                Rate: {props.book.book_rate} 
+                <span className={`${styles.iconStyle} `}> 
+                <BsStarFill className=' mb-2'/></span>
+                </span>
+                <div className="section-title mt-3 pt-3">
+            <span className={` mt-5 fs-2 myPrimary ${styles.spanAbout}`}> Add your Rate </span>
+          </div>
+            </div>
+          </div>
         </div>
-        <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-          <p className="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-          </p>
-          <ul className={`ms-3 ${styles.ulAbout}`}>
-            <li className={`${styles.liAbout}`}>
-              <BiStore size={65}/>
-              <div className='mt-3'>
-                <span className='fs-5 ms-2 d-block'>Ullamco laboris nisi ut aliquip consequat</span>
-                <span className='fs-6 ms-2 d-block'>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</span>
-              </div>
-            </li>
-            <li className='d-flex'>
-            <BsBookFill size={65}/>
-              <div className='mt-3'>
-                <span className='fs-5 ms-3 d-block'>Magnam soluta odio exercitationem reprehenderi</span>
-                <span className='fs-6 ms-2 d-block'>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
   </section>
   </>
   )
