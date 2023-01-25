@@ -24,7 +24,7 @@ const DepartmentsList = (props: Props) => {
             <div className={`row ${styles.cardsContainer}`}>
               {props.books.map(
                 (books: Books, index: number) => (
-                  <div key={index} className={`col-sm-12 col-lg-4 col-md-6 ${styles.cardMargin}`}>
+                  <div key={index} className={`col-sm-12 col-lg-3 col-md-6 ${styles.cardMargin}`}>
                     <BookCard
                       book_id={books.book_id}
                       book_name={books.book_name}

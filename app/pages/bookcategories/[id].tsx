@@ -57,6 +57,15 @@ const dummyData = {
       category_name: 'Category 5 ',
      
     },
+    {
+      book_id: 4,
+      category_id: 4,
+      book_name:"book 4",
+      author_name:"author 4",
+      book_rate: 4.34 ,
+      category_name: 'Category 5 ',
+     
+    },
      {
       book_id: 0,
       category_id: 2,
