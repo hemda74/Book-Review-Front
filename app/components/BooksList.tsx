@@ -11,7 +11,7 @@ type Props = {
 type Books = {
   [key: string]: any;
 };
-// Departments List used as Landing page for demaprtment page if there are Departments.
+// Books List used as Landing page for Books page if there are Books.
 const DepartmentsList = (props: Props) => {
   return (
     <>

@@ -21,7 +21,7 @@ const BookCard = (props: Props) => {
           className={`d-flex align-items-center justify-content-center ${styles.cardContainer}`}>
           <div className="d-flex p-5 ">
             <div className="d-flex align-items-center justify-content-center"><BsBookFill size={80} className={` me-4  ${styles.textStyle2} `}/></div>
-            <div className="book-info">
+            <div className="book-info ms-3 ">
           <span className={` fs-4 fw-semibold ${styles.textStyle} `}>
                <span className='fs-2'>{props.book_name}</span> <br/>
                 {props.author_name} <br/>

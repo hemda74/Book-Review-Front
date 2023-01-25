@@ -1,23 +1,18 @@
 import Head from 'next/head';
 import React,{ReactElement} from 'react'
-import BookCard from '../../components/BookCard';
 import BooksLanding from '../../components/BooksLanding';
 import BooksList from '../../components/BooksList';
-import CategoriesLanding from '../../components/CategoriesLanding';
-import CategoriesList from '../../components/CategoriesList';
-import CategoryBooks from '../../components/CategoryBook';
 import ViewerLayout from '../../layout/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
 type Props = {};
 // dymmy data for ui till handle working with api
-
 const dummyData = {
   books: [
     {
       book_id: 0,
       book_name:"book 1",
       author_name:"author 1",
-      book_rate:4,
+      book_rate:4.1,
       category_id: 0,
       category_name: 'Category 1 ',
      
@@ -28,7 +23,7 @@ const dummyData = {
       book_id: 1,
       book_name:"book 2",
       author_name:"author 2",
-      book_rate:5,
+      book_rate:2.5,
       
     },
     {
@@ -36,7 +31,7 @@ const dummyData = {
       category_id: 2,
       book_name:"book 3",
       author_name:"author 3",
-      book_rate: 4 ,
+      book_rate: 4.5 ,
       category_name: 'Category 3 ',
     },
     {
@@ -71,7 +66,7 @@ const dummyData = {
       category_id: 2,
       book_name:"book 3",
       author_name:"author 3",
-      book_rate: 4 ,
+      book_rate: 1.9 ,
       category_name: 'Category 6 ',
      
      },
