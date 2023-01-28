@@ -16,22 +16,29 @@ const BookCard = (props: Props) => {
     <>
     <Link
       href={`/books/${props.book_id}`}>
-      <span  className="text-decoration-none">
-        <div
-          className={`d-flex align-items-center justify-content-center ${styles.cardContainer}`}>
-          <div className="d-flex p-5 ">
-            <div className="d-flex align-items-center justify-content-center"><BsBookFill size={80} className={` me-4  ${styles.textStyle2} `}/></div>
-            <div className="book-info ms-3 ">
-          <span className={` fs-4 fw-semibold ${styles.textStyle} `}>
-               <span className='fs-2'>{props.book_name}</span> <br/>
-                {props.author_name} <br/>
-                <span className='fs-4 mt-0'>{props.category_name} </span><br/>
-                <span className='fs-4 mt-0'>Rate: {props.book_rate}  <span className={`${styles.iconStyle} `}> <BsStarFill   className=' mb-2'/></span></span>
-            </span>
-            </div>
-          </div>
+        <div className={`card ${styles.cardContainer}`}>
+              <BsBookFill size={60} className={`${styles.cardImage}`}/>
+              <div className="text-center">
+                    <span className={`fs-2 d-block  ${styles.textTitle} ${styles.textStyle}`}>
+                      {props.book_name}
+                    </span>
+                    <div className="mt-2 d-flex row">
+                          <div className="col-1">
+                          </div>
+                          <span className={`fs-6 col-5 p-2 myInfo rounded me-2`}>
+                              {props.author_name} 
+                          </span>
+                          <span className={`fs-6 col-5 p-2 myInfo rounded `}>
+                              {props.category_name} 
+                          </span>
+                    </div>
+              </div>
+              <span className={`fs-4 mt-3 ms-3 text-center ${styles.rateSpan}`}>
+                    Rate: {props.book_rate}
+                    <span className={`${styles.iconStyle}`}> <BsStarFill size={20}  className=' mb-2 mt-0'/>
+                    </span>
+              </span>
         </div>
-      </span>
     </Link>
   </>
   );
