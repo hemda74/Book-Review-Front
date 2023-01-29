@@ -22,7 +22,6 @@ const Counts = () => {
     </CountUp></span>
           </div>
         </div>
-
         <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
           <div className={`${styles.countBox}`}>
             <FcKindle size={50}/>
