@@ -17,7 +17,8 @@ const BookCard = (props: Props) => {
     <Link
       href={`/books/${props.book_id}`}>
         <div className={`card ${styles.cardContainer}`}>
-              <BsBookFill size={60} className={`${styles.cardImage}`}/>
+          {/* here we can can add book image insted of icon */}
+              <BsBookFill  className={`${styles.cardImage}`}/>
               <div className="text-center">
                     <span className={`fs-2 d-block  ${styles.textTitle} ${styles.textStyle}`}>
                       {props.book_name}
