@@ -1,12 +1,6 @@
 .mainContainer{
     margin-right: 0;
 }
-.cardBodyContainer {
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
-     margin-top: 2rem;
-    /*margin-bottom: 2rem; */
-}
 /* design form container div */
 .cardBodyContainer h3{
     border-bottom: solid #306778;
@@ -16,7 +10,6 @@
 .colFormLabel{
     height:2.5rem;
     padding-top: 0;
-    /* margin: 8px 0; */
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -27,13 +20,9 @@
 .inputWidth{
     width: 20rem;
     height: 5rem;
-
 }
-
 .colFormLabel2{
-    height:9.5rem;
     padding-top: 0;
-    /* margin: 8px 0; */
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -42,7 +31,6 @@
     color: black;
 }
 .textAreainput{
-    width: 20rem;
     resize: none;
 }
 /* style placeholder with each broswer */
@@ -54,25 +42,11 @@
     color:#ccc;
 
 }
-
 .colFormLabel::-ms-input-placeholder { /* Microsoft Edge */
     color:#ccc;
 
 }
-.smallDescription{
-    color: #999;
-    font-size: 0.844rem;
-
-}
-.formSelection option{
-    color:#ccc;
-}
-
-.formSelection{
-    color:#BBB9B9;
-}
 /* style confirm and cancel */
-
 .confirmBtn {
     padding-top: 0.475rem;
     padding-bottom: 0.475rem;
