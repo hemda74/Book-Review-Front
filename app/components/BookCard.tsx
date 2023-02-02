@@ -36,7 +36,7 @@ const BookCard = (props: Props) => {
               </div>
               <span className={`fs-4 mt-3 ms-3 text-center ${styles.rateSpan}`}>
                     Rate: {props.book_rate}
-                    <span className={`${styles.iconStyle}`}> <BsStarFill size={20}  className=' mb-2 mt-0'/>
+                    <span className={`${styles.iconStyle}`}> <BsStarFill size={20} className=' mb-2 mt-0'/>
                     </span>
               </span>
         </div>

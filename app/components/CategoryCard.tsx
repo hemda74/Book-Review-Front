@@ -21,6 +21,7 @@ const CategoryCard = (props: Props) => {
             <span className={`fs-4 fw-bold ${styles.textStyle} `}>
               <BiCategory size={50}/> {props.category_name}
             </span>
+            <span className={` mt-3 fs-6 ms-3 myPrimary p-2 rounded d-inline-block ${styles.textStyle}`}> View Books</span>
           </div>
         </div>
       </span> 
