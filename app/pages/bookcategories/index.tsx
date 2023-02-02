@@ -2,7 +2,6 @@ import Head from 'next/head';
 import React, { ReactElement } from 'react'
 import CategoriesLanding from '../../components/CategoriesLanding';
 import CategoriesList from '../../components/CategoriesList';
-import SitesLandingWithData from '../../components/CategoryBook';
 import ViewerLayout from '../../layout/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
 type Props = {};
@@ -35,11 +34,11 @@ const dummyData = {
       category_name: 'Category 5 ',
      
     },
-    // {
-    //   category_id: 5,
-    //   category_name: 'Category 6 ',
+     {
+       category_id: 5,
+       category_name: 'Category 6 ',
      
-    // },
+     },
   ],
 };
 

@@ -24,7 +24,25 @@ const CreateNewBookComp = function (props: Props) {
                             <h3 className='m-0' data-trans="">New Category</h3>
                         </div>
                         <div className='all inputs row '>
-                            <div className="col-lg-12">
+                            <div className="col-lg-6">
+                                <div className="form-group pt-4">
+                                    <label className={`col-form-label mt-4${styles.colFormLabel}}`} htmlFor="category-name-input" data-trans=""><span className={`${styles.inputLabel}`}>Book Name</span></label>
+                                    <input type="text" className={`form-control ${styles.inputWidth}`}  id="site-name-input" />
+                                </div>
+                                </div>
+                                <div className="col-lg-6">
+                                <div className="form-group pt-4">
+                                    <label className={`col-form-label mt-4${styles.colFormLabel}}`} htmlFor="category-name-input" data-trans=""><span className={`${styles.inputLabel}`}>Book Name</span></label>
+                                    <input type="text" className={`form-control ${styles.inputWidth}`}  id="site-name-input" />
+                                </div>
+                                </div>
+                                <div className="col-lg-6">
+                                <div className="form-group pt-4">
+                                    <label className={`col-form-label mt-4${styles.colFormLabel}}`} htmlFor="category-name-input" data-trans=""><span className={`${styles.inputLabel}`}>Book Name</span></label>
+                                    <input type="text" className={`form-control ${styles.inputWidth}`}  id="site-name-input" />
+                                </div>
+                                </div>
+                                <div className="col-lg-6">
                                 <div className="form-group pt-4">
                                     <label className={`col-form-label mt-4${styles.colFormLabel}}`} htmlFor="category-name-input" data-trans=""><span className={`${styles.inputLabel}`}>Book Name</span></label>
                                     <input type="text" className={`form-control ${styles.inputWidth}`}  id="site-name-input" />
@@ -38,10 +56,10 @@ const CreateNewBookComp = function (props: Props) {
                                 </div>
                             </div>   
                         </div>
-                        <div className={`d-flex justify-content-center mt-5 ${styles.buttonsStyles}`}>
+                        <div className={`d-flex justify-content-center mb-5 ${styles.buttonsStyles}`}>
                         <button
                             type="button"
-                            className={`btn myPrimary-outline ${styles.confirmBtn} me-5 ms-2`}
+                            className={`btn myPrimary-outline ${styles.confirmBtn} me-2 ms-2`}
                             onClick={() => handleCancelBtn()}
                             disabled={isPending}>
                             <span className="fs-5 fw-semibold" data-trans="cancel">

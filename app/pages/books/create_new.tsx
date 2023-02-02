@@ -1,8 +1,9 @@
 import React from 'react'
+import CreateNewBookComp from '../../components/CreateNewBookCom'
 
 const create_new = () => {
   return (
-    <div>create_new</div>
+    <CreateNewBookComp/>
   )
 }
 
