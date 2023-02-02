@@ -65,72 +65,9 @@ const Book = (props:Props) => {
                             Cancel
                             </span>
                             </button>
-                            <button
-                            type="button"
-                            className={`btn myPrimary ${styles.confirmBtn}`}
-                            disabled={isPending}>
-                            {!isPending && (
-                            <span className="fs-5 fw-semibold p-4" data-trans="confirm">
-                                Confirm
-                            </span>
-                            )}
-                            {isPending && <span>Loading...</span>}
-                        </button>
+                         
                     </div>
 </div>    
-                    {/* <div className={`col-lg-6 col-md-6 col-sm-12 card-detalis d-flex align-items-center   ${styles.innerCont}`}>
-                    <Image src={bookimage} width={350} height={500}  alt=""/>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12 justify-content-center text-center  ">
-                            <span className="card-text-details fw-bold  fs-1">
-                                 {props.book.book_name} 
-                            </span>
-                            <p className="card-text-details border-bottom p-1 fs-4 mt-5">
-                                Written By : {props.book.author_name}
-                            </p>
-                            <p className="card-text-details border-bottom p-1 fs-4 mt-5">
-                                Category :{props.book.category_name} 
-                            </p>
-                            <p className="card-text-details border-bottom fs-4 p-2 mt-5 mb-5">
-                                Rate :  {props.book.book_rate} 
-                                <span className={`${styles.iconStyle} `}> 
-                                <BsStarFill className='mb-2'/></span>
-                            </p>
-                            <span className={` mt-4 fs-3 myPrimary ${styles.spanAbout}`}> Add your Rate </span>
-                      </div> */}
-                    
-                
-            
-          
-    {/* <section className={`text-center mt-5 vh-100 `}>
-        <div className={`container ${styles.aboutCont}`} >
-          <div className="row mt-5">
-          <div className="col-lg-6 ">
-              <Image src={bookimage} width={350} className=" ms-2" alt=""/>
-            </div>
-            <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
-              <h1 className={`${styles.textStyle2}`}>{props.book.book_name}</h1>
-              <span className={`fs-4 mt-3 fw-bold ${styles.textStyle}`}>
-              Written by  <br/>
-              <span className=" border-bottom ">
-              {props.book.author_name}
-              </span>
-              </span>
-              <span className={`fs-4 mt-3 fw-bold ${styles.textStyle}`}>
-                Category 
-                 {props.book.category_name}</span>
-              <span className={`fs-4 mt-3 fw-bold ${styles.textStyle}`}>
-                Rate: {props.book.book_rate} 
-                <span className={`${styles.iconStyle} `}> 
-                <BsStarFill className=' mb-2'/></span>
-                </span>
-                <div className="section-title mt-3 p-2">
-            <span className={` mt-5 fs-3 myPrimary ${styles.spanAbout}`}> Add your Rate </span>
-          </div>
-            </div>
-          </div>
-        </div>
-  </section> */}
   </>
   )
 }
