@@ -24,6 +24,7 @@ const Home: NextPage=()=> {
   <TopBar/>
         <NavBar />
   <LandSection/>
+  <Counts />
   <Services/>
   <About/>
   <Contact />
