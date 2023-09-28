@@ -33,7 +33,7 @@ const dummyData = {
 };
 
 //  categories page.
-export const categories:NextPageWithLayout = (props:Props) => { 
+ const categories:NextPageWithLayout = (props:Props) => { 
   
   return (
   <>
